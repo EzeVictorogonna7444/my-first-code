@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+           body{
+            background-color: black; 
+        }
+    div{
+position: relative;
+        width: 80%;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+
+    }
+    main{
+        flex: 1 1 350px;  
+        width: 29%; 
+        margin-top: 20px;
+    }
+img{
+width:90%;
+animation-name: img;
+animation-duration: 3s;
+animation-iteration-count: 2;
+    border-radius: 30px;
+}
+span{
+    border-radius: 10px;
+    color: white;
+    font-size: 30px;
+}
+@keyframes img{
+    100%{
+        opacity:0.5;
+    }
+
+}
+a{
+    text-decoration: none;
+}
+#a2{
+    position: absolute;
+        font-size: 20px;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: rgb(226, 226, 60);
+        bottom: 5px;
+right:  0px;
+height: 20px;
+}
+    #a2:hover{
+    background-color: red;
+    }
+</style>
+<body>
+    <div>
+      <main> 
+       <a href="responsive.html"><img src="Screenshot (4).png" alt="">
+        <span>Responsive website</span></a>
+        </main>
+      <main> 
+<a href="garage.html"><img src="Screenshot (5).png" alt="">
+    <span>Garage website</span></a>
+        </main>
+        
+    </div>
+    <div>
+        <main>  
+           <a href="ketalz.html"> <img src="Screenshot (6).png" alt=""><br>
+            <span>Keltalz website</span></a>
+        </main>
+        <main>
+<a href="garage2.html"><img src="Screenshot (8).png" alt="">
+    <span>Garage2 website</span></a>
+    
+        </main>
+        <a href="victor.html"id="a2">Back</a>
+    </div>
+</body>
+</html>
